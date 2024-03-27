@@ -21,7 +21,7 @@ div.header  {
     background-position: center;
     font-weight: 600;
     position: relative; 
-    top: 3px;
+    bottom: 3px;
   left: 23pc;    
 }
 
