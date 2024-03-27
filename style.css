@@ -12,7 +12,6 @@ body {
     overflow-x: hidden;
 }
 
-
 div.header  {
     background: url("./images/pattern-circles.svg")no-repeat;
     background-size: contain;
@@ -21,7 +20,7 @@ div.header  {
     background-position: center;
     font-weight: 600;
     position: relative; 
-    top: -3px;
+    top: 2pc;
   left: 26pc;    
 }
 
