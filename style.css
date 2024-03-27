@@ -230,11 +230,25 @@ input.btn {
 /* MOBILE VIEW */
 
 @media screen and (max-width:500px) and (min-width:300px) {
-    div#get {
-        height: 580px;
-       width: 419px;
-       
+    body {
+        background: url("./images/bg-pattern.svg")no-repeat;
+        background-size: cover;
+        height: 100px;
+        overflow-x: hidden;
     }
+    
+    
+    div.header  {
+        left: 4pc;    
+    }
+   
+   
+    div#get {
+        width: 423px;
+        position: absolute;
+        top: 61%;
+    }
+    
     
     h1 {
         font-size: 25px;  
