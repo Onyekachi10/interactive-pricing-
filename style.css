@@ -22,7 +22,7 @@ div.header  {
     font-weight: 600;
     position: relative; 
     top: -3px;
-  left: 40pc;    
+  left: 30pc;    
 }
 
 h1 {
@@ -46,7 +46,7 @@ div#get {
     width: 700px;
     position: absolute;
     top: 59%;
-    left: 48%;
+    left: 49%;
     transform: translate(-50%,-50%);
     background-color: white;
 }
