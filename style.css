@@ -22,7 +22,7 @@ div.header  {
     font-weight: 600;
     position: relative; 
     top: -3px;
-  left: 28pc;    
+  left: 40pc;    
 }
 
 h1 {
@@ -45,7 +45,7 @@ div#get {
     height: 450px;
     width: 700px;
     position: absolute;
-    top: 69%;
+    top: 59%;
     left: 48%;
     transform: translate(-50%,-50%);
     background-color: white;
@@ -328,8 +328,8 @@ input.btn {
     
     
     div.header  {
-        left: -2pc;
-        top: -2pc;
+        left: -2pc; 
+        top: -2pc;   
     }
    
    
