@@ -27,15 +27,15 @@ div.header  {
 
 h1 {
     text-align: center;
-    margin-top: 6px;
-    font-size: 30px;
+    margin-top: 61px;
+    font-size: 27px;
     font-weight: 600;
 }
 
 h2 {
     text-align: center;
-    font-size: 20px;
     margin-top: 1.5pc;
+    font-size: 12px;
     opacity: 60%;
 }
 
@@ -45,7 +45,7 @@ div#get {
     height: 450px;
     width: 700px;
     position: absolute;
-    top: 79%;
+    top: 69%;
     left: 48%;
     transform: translate(-50%,-50%);
     background-color: white;
