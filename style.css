@@ -21,7 +21,7 @@ div.header  {
     font-weight: 600;
     position: relative; 
     top: -3px;
-  left: 22pc;
+  left: 28pc;    
 }
 
 h1 {
@@ -44,8 +44,8 @@ div#get {
     height: 450px;
     width: 700px;
     position: absolute;
-    top: 62%;
-    left: 50%;
+    top: 44%;
+    left: 39%;
     transform: translate(-50%,-50%);
     background-color: white;
 }
@@ -164,9 +164,9 @@ label.switch {
   }
   
   input:checked + .slider_2:before {
-    -webkit-transform: translateY(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(25px);
+    -webkit-transform: translate(26px);
+    -ms-transform: translate(26px);
+    transform: translate(25px);
   }
 
   p.month,p.year,span.discount {
