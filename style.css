@@ -229,7 +229,7 @@ input.btn {
 
 /* MOBILE VIEW */
 
-@media screen and (max-width:500px) and (min-width:300px) {
+@media screen and (max-width:500px) and (min-width:499px) {
     body {
         background: url("./images/bg-pattern.svg")no-repeat;
         background-size: cover;
@@ -311,6 +311,98 @@ input.btn {
 
    input.btn {
     left: 8pc;
+    bottom: -1pc;
+   }
+   
+     
+}
+
+
+@media screen and (max-width:499px) and (min-width:199px) {
+    body {
+        background: url("./images/bg-pattern.svg")no-repeat;
+        background-size: cover;
+        height: 285px;
+        overflow-x: hidden;
+    }
+    
+    
+    div.header  {
+        left: -2pc;    
+    }
+   
+   
+    div#get {
+        width: 292px;
+        top: 61%;
+        left: 49%;
+        height: 600px;
+        
+    }
+    
+    
+    h1 {
+        font-size: 15px;  
+    }
+   
+    h2 {
+       font-size: 8px;
+    }
+
+    p.number_pages {
+        text-align: center;
+      }
+      
+      p.price {
+        margin-right: 3pc;
+        top: 5pc;
+        font-size: 33px;
+      }
+      
+      span.time {
+        font-size: 12px;
+        margin-top: 1pc;
+      }
+      
+      .slider {       
+        width: 71%;
+        margin-left: 2pc;
+       }
+
+       p.month {
+         top: 4.3pc;
+         margin-left: 9pc;
+         font-size: 12px;
+      }
+    
+      p.year {
+        top: 1.4pc;
+        margin-right: 6pc;
+        font-size: 12px;
+      }
+    
+      span.discount {
+        left: -4pc;
+        font-size: 10px;
+        top: 2pc;
+      }
+    
+      label.switch {
+        width: 55px;
+        height: 30px;
+        margin: 0 auto;
+        top: 2.5pc;
+    }
+
+
+    div.select {
+        margin-left: 2pc;
+        margin-top: 10pc;
+     }
+   
+
+   input.btn {
+    left: 4pc;
     bottom: -1pc;
    }
    
